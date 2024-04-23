@@ -863,7 +863,7 @@ async function getVLESSConfig(userID, hostName, sub, userAgent, RproxyIP) {
 	- type: vless
 	  name: ${hostName}
 	  server: ${hostName}
-	  port: 443
+	  port: 2053
 	  uuid: ${userID}
 	  network: ws
 	  tls: true
@@ -897,7 +897,7 @@ async function getVLESSConfig(userID, hostName, sub, userAgent, RproxyIP) {
 	- type: vless
 	  name: ${hostName}
 	  server: ${hostName}
-	  port: 443
+	  port: 2053
 	  uuid: ${userID}
 	  network: ws
 	  tls: true
